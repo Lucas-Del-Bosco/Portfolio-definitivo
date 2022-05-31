@@ -99,11 +99,12 @@ section {
 .home-text h2 > span {
     color: var(--cor-principal);
 }
+
 .home-text h2 {
     font-size: 26px;
     text-align: center;
     letter-spacing: 1.3px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .home-text h3 {
@@ -111,6 +112,33 @@ section {
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
+}
+.link-container {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    gap: 2rem;
+    font-size: 20px;
+    
+}
+.linkedin {
+    align-items: center;
+    padding: 5px 15px;
+    transition: .3s;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.575);
+}
+.linkedin a{
+    align-items: center;
+    color: var(--cor-texto);
+}
+.github {
+    padding: 5px 20px;
+    transition: .3s;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.575);
+    
+}
+.github a{
+    color: var(--cor-texto);
 }
 .sobre {
     display: grid;
@@ -414,8 +442,14 @@ section {
         height: 100vh;
     }
     .home h1 {
-        font-size: 49px;
+        font-size: 38px;
         text-align: center;
+    }
+    .home h2 {
+        font-size: 16px;
+    }
+    .home h3 {
+        font-size: 16px;
     }
     .sobre {
         grid-template-columns: 1fr;
