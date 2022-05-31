@@ -287,13 +287,14 @@ section {
     margin-bottom: 10px;
     font-weight: 400;
 }
+
 .c-box {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5rem;
     align-items: center;
     margin-top: 64px;
-    margin-right: 20px;
+    margin-left: 65px
 }
 
 .contato-img img {
