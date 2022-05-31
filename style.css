@@ -235,6 +235,7 @@ section {
     border-radius: 15px;
     width: 340px;
     height: 220px;
+    filter: grayscale(0.35);
 }
 
 .p-box h3 {
