@@ -104,7 +104,7 @@ section {
     font-size: 26px;
     text-align: center;
     letter-spacing: 1.3px;
-    margin-bottom: 60px;
+    margin-bottom: 45px;
 }
 
 .home-text h3 {
@@ -125,7 +125,7 @@ section {
     align-items: center;
     padding: 5px 15px;
     transition: .3s;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.575);
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.356);
 }
 .linkedin a{
     align-items: center;
@@ -134,7 +134,7 @@ section {
 .github {
     padding: 5px 20px;
     transition: .3s;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.575);
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.356);
     
 }
 .github a{
@@ -449,6 +449,7 @@ section {
         font-size: 16px;
     }
     .home h3 {
+        margin-top: 30px;
         font-size: 16px;
     }
     .sobre {
