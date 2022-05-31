@@ -180,6 +180,7 @@ section {
     margin: 14px 0 28px;
     line-height: 1.7;
     font-size: 17px;
+    text-overflow: ellipsis;
 }
 
 .btn {
@@ -490,5 +491,11 @@ section {
     .email {
         margin-top: -10px;
         margin-left: -5px;
+    }
+}
+
+@media (max-width: 460px) {
+    .ferramentas > .heading {
+        margin-top: 200px;
     }
 }
