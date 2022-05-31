@@ -433,10 +433,15 @@ section {
         margin-left: 10vw;
     }
     .contato-img img {
-        margin-left: 5vw;
-        width: 80%;
+        margin-left: -15px;
+        margin-bottom: 40px;
+        width: 95%;
     }
     .redes-sociais {
-        margin-top: -100px;
+        margin-top: -130px;
+    }
+    .email {
+        margin-top: -10px;
+        margin-left: -5px;
     }
 }
